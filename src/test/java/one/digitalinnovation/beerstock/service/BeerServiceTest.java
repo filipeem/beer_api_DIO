@@ -31,7 +31,7 @@ public class BeerServiceTest {
     @Mock
     private BeerRepository beerRepository;
 
-    private BeerMapper beerMapper = BeerMapper.INSTANCE;
+    private final BeerMapper beerMapper = BeerMapper.INSTANCE;
 
     @InjectMocks
     private BeerService beerService;
